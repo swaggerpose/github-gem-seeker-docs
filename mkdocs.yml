@@ -2,21 +2,15 @@ site_name: GitHub Gem Seeker Documentation
 theme:
   name: material
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Switch to light mode
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to dark mode
+    scheme: slate
+    primary: black
+    accent: blue
   font:
     text: Roboto
     code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
 
 extra_css:
   - stylesheets/extra.css
